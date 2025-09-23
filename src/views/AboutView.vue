@@ -21,9 +21,7 @@
            <p class="mt text-dark text-justify text-lg sm:text-sm">
             {{ $t('about_page.company_description4') }}
           </p>
-            <p class="mt text-dark text-justify text-lg sm:text-sm">
-            {{ $t('about_page.company_description5') }}
-          </p>
+
             <p class="mt text-dark text-justify text-lg sm:text-sm">
             {{ $t('about_page.company_description6') }}
           </p>

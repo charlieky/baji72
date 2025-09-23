@@ -58,7 +58,7 @@
             <button class="whitespace-nowrap btn-primary btn-with-icon sm:mt-4">
               <span>{{ $t('landing.read_more') }}</span>
               <span class="rounded-full w-6 h-6 bg-white flex-center text-darker trans">
-                <arrowTopIcon class="w-4 rtl:rotate-[270deg]" />
+                <arrowTopIcon class="w-4" />
               </span>
             </button>
           </RouterLink>
