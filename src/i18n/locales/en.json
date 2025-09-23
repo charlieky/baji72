@@ -77,11 +77,7 @@
         "company_description1":"Profit = (Client Loss - Bonus) - 20% Operating Cost",
         "company_description2":"Your Bonus = Profit × 60% (Commission percentage increases based on agent level)",
         "company_description3":"🎯 Agent Level and Commission Percentage:",
-        "company_description4":"| Agent Level | Client Loss Range    | Commission Percentage |",
-        "company_description6":"|A----------------|0 – 100,000-----------|30%-------------------------------|",
-        "company_description7":"|B----------------|100,000 – 200,000\n|40%-------------------------------|",
-        "company_description8":"|C----------------|300,000 – 400,000\n|50%-------------------------------|",
-        "company_description9":"|D----------------|400,000---------------|60%-------------------------------|",
+       
         "mission_title": "Example:",
         "mission_description": "Suppose you are a Level D agent and a client deposits 10 million and withdraws 6 million. Your profit is calculated as follows:",
         "mission_description1": "Client Loss: 10 million - 6 million = 4 million",
