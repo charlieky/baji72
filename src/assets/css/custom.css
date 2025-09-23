@@ -1,0 +1,69 @@
+.carousel__pagination {
+  @apply gap-2 !-bottom-5;
+}
+.carousel__pagination .carousel__pagination-item .carousel__pagination-button {
+  @apply !w-2 !h-2 transition-all ease-in-out duration-300 rounded-full bg-blue-500/40 after:hidden;
+}
+.carousel__pagination
+  .carousel__pagination-item
+  .carousel__pagination-button.carousel__pagination-button--active {
+  @apply !bg-primary !w-8;
+}
+.carousel__prev,
+.carousel__next {
+  @apply text-dark transition-all ease-in-out duration-300 hover:text-darker text-4xl;
+}
+.carousel__prev {
+  @apply -left-12;
+}
+.carousel__next {
+  @apply -right-12;
+}
+
+.custom-image-clip-left {
+  clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+.custom-image-clip-right {
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+}
+
+.effect-slider-1 .carousel__viewport {
+  perspective: 2000px;
+}
+
+.effect-slider-1 .carousel__track {
+  transform-style: preserve-3d;
+}
+
+.effect-slider-1 .carousel__slide--sliding {
+  transition: 0.5s;
+}
+
+.effect-slider-1 .carousel__slide {
+  opacity: 0.9;
+  transform: rotateY(-20deg) scale(0.9);
+}
+
+.effect-slider-1 .carousel__slide--active ~ .carousel__slide {
+  transform: rotateY(20deg) scale(0.9);
+}
+
+.effect-slider-1 .carousel__slide--prev {
+  transform: rotateY(-40deg) scale(0.95);
+}
+
+.effect-slider-1 .carousel__slide.carousel__slide--next {
+  transform: rotateY(40deg) scale(0.95);
+}
+
+.effect-slider-1 .carousel__slide--active {
+  transform: rotateY(0) scale(1);
+}
+.effect-slider-1 .carousel__slide:hover {
+  opacity: 1;
+}
+
+/* nuxt icons  */
+.nuxt-icon svg {
+  margin-bottom: 0;
+}
