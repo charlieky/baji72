@@ -2,7 +2,7 @@
   <section class="flex-center">
     <div class="px-4 flex-center flex-col">
       <div class="flex-between w-full">
-        <h2 class="text-3xl font-bold text-darker section-title-start">
+        <h2 class="text-3xl font-bold text-light section-title-start">
           {{ $t('projects.heading') }}
         </h2>
         <RouterLink

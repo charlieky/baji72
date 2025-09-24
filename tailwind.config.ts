@@ -74,8 +74,8 @@ export default {
       },
 
       colors: {
-        dark: '#777',
-        darker: '#121212',
+        dark: '#B1B1B1',
+        darker: '#070707',
         light: '#f9f9f9',
         primary: '#1B62E8',
       },

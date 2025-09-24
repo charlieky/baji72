@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="fl-5">
-            <h2 class="text-3xl sm:text-xl section-title-start font-bold text-darker">
+            <h2 class="text-3xl sm:text-xl section-title-start font-bold text-light">
                 {{ $t('whyus.heading') }}
             </h2>
             <div class="fc gap-2 sm:flex-col">
@@ -27,7 +27,7 @@
                 <img
                     loading="lazy"
                     src="/images/landing-small.webp"
-                    class="w-full h-full object-cover rounded-2xl shadow-sm transition-all duration-500 ease-in-out group-hover:brightness-75"
+                    class="w-full h-full  rounded-2xl shadow-sm transition-all duration-500 ease-in-out group-hover:brightness-75"
                 />
             </div>
         </div>

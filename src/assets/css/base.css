@@ -4,7 +4,7 @@
     scroll-behavior: smooth;
   }
   body {
-    background-color: #eff6ff;
+    background-color: #171717;
     @apply ltr:font-open font-ubuntu;
   }
 }

@@ -1,9 +1,9 @@
 <template>
-  <section class="py-14 w-full bg-slate-50">
+  <section class="py-14 w-full bg-[#171717];">
     <div class="container">
       <div class="fs gap-4 sm:flex-col-reverse">
         <div class="flex-3">
-          <h2 class="text-4xl sm:text-xl font-bold text-darker section-title-start">
+          <h2 class="text-4xl sm:text-xl font-bold text-light section-title-start">
             {{ $t('about_page.company_intro') }}
           </h2>
           <p class="mt-4 text-dark text-justify text-lg sm:text-sm">
@@ -35,7 +35,7 @@
             {{ $t('about_page.company_description9') }}
           </p>
 
-          <h2 class="text-4xl sm:text-xl font-bold text-darker section-title-start !mt-1">
+          <h2 class="text-4xl sm:text-xl font-bold text-light section-title-start !mt-1">
             {{ $t('about_page.mission_title') }}
           </h2>
           <p class="mt-3 text-dark text-justify text-lg sm:text-sm">
@@ -53,7 +53,7 @@
                <p class=" text-dark text-justify text-lg sm:text-sm">
             {{ $t('about_page.mission_description4') }}
           </p>
-          <h2 class="text-4xl sm:text-xl font-bold text-darker section-title-start !mt-1">
+          <h2 class="text-4xl sm:text-xl font-bold text-light section-title-start !mt-1">
             {{ $t('about_page.vision_title') }}
           </h2>
           <p class="mt-3 text-dark text-justify text-lg">
@@ -198,6 +198,6 @@ const services = computed(() =>
 
 <style>
 body {
-  @apply bg-slate-50;
+@apply bg-[#171717];
 }
 </style>

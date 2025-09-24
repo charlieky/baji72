@@ -3,7 +3,7 @@
     <div class="container">
       <div class="fs gap-4 sm:flex-col">
         <div class="flex-2 sm:w-full">
-          <h3 class="text-3xl font-bold section-title-start mb-6 text-darker">
+          <h3 class="text-3xl font-bold section-title-start mb-6 text-light">
             {{ $t('footer.contact_us') }}
           </h3>
           <p class="mb-6 ">
@@ -46,7 +46,7 @@
         </div>
         <div class="flex-3 fs gap-4 sm:flex-col">
           <div class="flex-1 sm:w-full">
-            <h3 class="text-2xl font-bold text-darker section-title-start mb-6">
+            <h3 class="text-2xl font-bold text-light section-title-start mb-6">
               {{ $t('footer.address.heading') }}
             </h3>
             <a href="https://maps.app.goo.gl/UEzZQTtequNeQsJz9" target="_blank">
@@ -58,7 +58,7 @@
           </div>
           <ul class="flex-1 fl-2 sm:w-full">
             <li class="mb-6">
-              <h3 class="text-2xl font-bold text-darker section-title-start">
+              <h3 class="text-2xl font-bold text-light section-title-start">
                 {{ $t('footer.useful_links.heading') }}
               </h3>
             </li>

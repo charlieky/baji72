@@ -3,7 +3,7 @@
     <div class="flex-center md:flex-col-reverse gap-5">
       <div class="flex-1 fl-5 md:w-full">
         <h2
-          class="font-bold leading-tight text-[40px] text-darker md:text-4xl md:leading-normal md:text-center"
+          class="font-bold leading-tight text-[40px] text-light md:text-4xl md:leading-normal md:text-center"
         >
           {{ $t('landing.vision_heading') }}
         </h2>
@@ -34,12 +34,12 @@
         <img
           loading="lazy"
           v-motion-pop-bottom
-          src="/images/landing-small.webp"
-          class="w-full h-36 object-cover rounded-2xl shadow-sm"
+          src="/images/svg8.svg"
+          class="w-full h-49  rounded-2xl shadow-sm"
         />
       </div>
       <div class="flex-1">
-        <h3 class="text-2xl text-darker font-bold">
+        <h3 class="text-2xl text-light font-bold">
           {{ $t('landing.materials_heading') }}
         </h3>
         <div class="flex-between gap-2 mt-2 sm:flex-col">
