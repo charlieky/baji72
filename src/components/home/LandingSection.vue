@@ -23,7 +23,7 @@
     >
         <img
             loading="lazy"
-            src="/images/landing.webp"
+            src="/images/landing.png"
             class="w-auto h-auto max-w-full max-h-full object-contain"
         />
     </div>
