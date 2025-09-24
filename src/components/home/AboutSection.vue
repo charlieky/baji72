@@ -37,7 +37,7 @@
         <div class="w-full h-full">
           <img
             src="/images/workers.webp"
-            class="h-full custom-image-clip-right  w-full object-cover object-top mr-auto"
+            class="h-full custom-image-clip-right ltr:-scale-x-110  w-full object-cover object-top mr-auto"
           />
         </div>
       </div>

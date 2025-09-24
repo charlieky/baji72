@@ -18,8 +18,24 @@
           <p class="mt text-dark text-justify text-lg sm:text-sm">
             {{ $t('about_page.company_description3') }}
           </p>
-
-
+           <p class="mt text-dark text-justify text-lg sm:text-sm">
+            {{ $t('about_page.company_description4') }}
+          </p>
+           <p class="mt text-dark text-justify text-lg sm:text-sm">
+            {{ $t('about_page.company_description5') }}
+          </p>
+            <p class="mt text-dark text-justify text-lg sm:text-sm">
+            {{ $t('about_page.company_description6') }}
+          </p>
+           <p class="mt text-dark text-justify text-lg sm:text-sm">
+            {{ $t('about_page.company_description7') }}
+          </p>
+            <p class="mt text-dark text-justify text-lg sm:text-sm">
+            {{ $t('about_page.company_description8') }}
+          </p>
+            <p class="mt text-dark text-justify text-lg sm:text-sm">
+            {{ $t('about_page.company_description9') }}
+          </p>
 
           <h2 class="text-4xl sm:text-xl font-bold text-darker section-title-start !mt-1">
             {{ $t('about_page.mission_title') }}
