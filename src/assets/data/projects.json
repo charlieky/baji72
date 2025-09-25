@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "image-1.webp",
+        "image": "image-1.png",
         "cols": 6,
         "rows": 2,
         "md-cols": 3,
@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "image": "image-2.webp",
+        "image": "image-2.png",
         "cols": 3,
         "rows": 1,
         "md-cols": 3,
@@ -21,7 +21,7 @@
     },
     {
         "id": 3,
-        "image": "image-3.webp",
+        "image": "image-3.png",
         "cols": 3,
         "rows": 1,
         "md-cols": 3,
@@ -31,7 +31,7 @@
     },
     {
         "id": 4,
-        "image": "image-4.webp",
+        "image": "image-4.png",
         "cols": 3,
         "rows": 1,
         "md-cols": 3,
@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "image": "image-5.webp",
+        "image": "image-5.png",
         "cols": 3,
         "rows": 1,
         "md-cols": 3,
@@ -51,7 +51,37 @@
     },
     {
         "id": 6,
-        "image": "image-6.webp",
+        "image": "image-6.png",
+        "cols": 3,
+        "rows": 1,
+        "md-cols": 3,
+        "md-rows": 1,
+        "sm-cols": 6,
+        "sm-rows": 1
+    },
+     {
+        "id": 7,
+        "image": "image-7.png",
+        "cols": 3,
+        "rows": 1,
+        "md-cols": 3,
+        "md-rows": 1,
+        "sm-cols": 6,
+        "sm-rows": 1
+    },
+     {
+        "id": 8,
+        "image": "image-8.png",
+        "cols": 3,
+        "rows": 1,
+        "md-cols": 3,
+        "md-rows": 1,
+        "sm-cols": 6,
+        "sm-rows": 1
+    },
+     {
+        "id": 9,
+        "image": "image-9.png",
         "cols": 3,
         "rows": 1,
         "md-cols": 3,

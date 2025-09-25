@@ -16,7 +16,7 @@
             </div>
 
             <div
-                class="relative group w-full h-64 sm:h-40 overflow-hidden cursor-pointer"
+                class="relative group w-full h-124 sm:h-40 overflow-hidden cursor-pointer"
                 @click="showVideo = true"
             >
                 <button
@@ -26,8 +26,8 @@
                 </button>
                 <img
                     loading="lazy"
-                    src="/images/landing-small.webp"
-                    class="w-full h-full  rounded-2xl shadow-sm transition-all duration-500 ease-in-out group-hover:brightness-75"
+                    src="/images/landing-small.svg"
+                    class="w-full h-full object-cover rounded-2xl shadow-sm transition-all duration-500 ease-in-out group-hover:brightness-75"
                 />
             </div>
         </div>

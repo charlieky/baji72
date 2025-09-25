@@ -15,4 +15,5 @@ export default {
             document.title = i18n.global.t('header.name')
         }
     },
+
 }

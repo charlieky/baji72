@@ -1,7 +1,7 @@
 <template>
   <section class="py-14 w-full bg-slate-50">
     <div class="container !overflow-x-hidden">
-      <h1 class="text-3xl font-bold text-darker section-title w-fit mx-auto mb-16">معرض اعمالنا</h1>
+      <h1 class="text-3xl font-bold text-darker section-title w-fit mx-auto mb-16"></h1>
       <ul class="w-full grid grid-cols-12 gap-5">
         <li
           v-motion-pop-bottom
@@ -29,6 +29,6 @@ import projectsJson from '@/assets/data/projects.json'
 
 <style>
 body {
-  @apply bg-slate-50;
+  @apply bg-[#171717];
 }
 </style>

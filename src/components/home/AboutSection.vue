@@ -33,18 +33,35 @@
           </button>
         </RouterLink>
       </div>
+
+
       <div class="flex-1 h-full sm:hidden">
         <div class="w-full h-full">
-          <img
-            src="/images/workers.webp"
-            class="h-full custom-image-clip-right ltr:-scale-x-110  w-full object-cover object-top mr-auto"
-          />
+           <img
+        loading="lazy"
+        :src="localizedImage"
+        :alt="$t('about.image_alt')"
+        class="w-auto h-auto object-cover object-top mr-auto"
+      />
         </div>
       </div>
+
+
+
+
+
     </div>
   </section>
 </template>
 <script setup lang="ts">
 import arrowRightIcon from '@/assets/icons/arrow-right.svg'
 
+import { computed } from 'vue';
+import { useI18n } from 'vue-i18n';
+
+const { locale } = useI18n();
+
+const localizedImage = computed(() => {
+  return `/images/workers-${locale.value}.png`;
+});
 </script>

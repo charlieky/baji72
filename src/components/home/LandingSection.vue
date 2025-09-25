@@ -21,11 +21,17 @@
         v-motion-pop-bottom
         class="w-full rounded-2xl flex-center overflow-hidden shadow-lg "
     >
+
+
+
         <img
-            loading="lazy"
-            src="/images/landing.png"
-            class="w-auto h-auto max-w-full max-h-full object-contain"
-        />
+        loading="lazy"
+        :src="localizedImage"
+        :alt="$t('landing.image_alt')"
+        class="w-auto h-auto max-w-full max-h-full object-contain"
+      />
+
+
     </div>
 </div>
     </div>
@@ -34,7 +40,7 @@
         <img
           loading="lazy"
           v-motion-pop-bottom
-          src="/images/svg8.svg"
+          src="/images/svg8.png"
           class="w-full h-49  rounded-2xl shadow-sm"
         />
       </div>
@@ -57,7 +63,7 @@
           >
             <button class="whitespace-nowrap btn-primary btn-with-icon sm:mt-4">
               <span>{{ $t('landing.read_more') }}</span>
-              <span class="rounded-full w-6 h-6 bg-white flex-center text-darker trans">
+              <span class="rounded-full w-6 h-6 bg-white flex-center text-light trans">
                 <arrowTopIcon class="w-4" />
               </span>
             </button>
@@ -70,4 +76,13 @@
 <script setup lang="ts">
 import appSettings from '@/assets/data/app.json'
 import arrowTopIcon from '@/assets/icons/arrow-top.svg'
+
+import { computed } from 'vue';
+import { useI18n } from 'vue-i18n';
+
+const { locale } = useI18n();
+
+const localizedImage = computed(() => {
+  return `/images/landing-${locale.value}.png`;
+  });
 </script>

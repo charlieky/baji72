@@ -16,10 +16,10 @@
         </RouterLink>
       </div>
 
-      <Carousel v-bind="config" class="mt-14 effect-slider-1">
+      <Carousel v-bind="config" class="mt-16 effect-slider-1">
         <Slide v-for="item in projectsJson" :key="item.id">
-          <div class="w-full relative rounded-xl overflow-hidden group" style="aspect-ratio: 4/3">
-            <img :src="`/projects/${item.image}`" class="w-full h-full object-cover" />
+          <div class="w-full relative rounded-xl overflow-hidden group" style="aspect-ratio: 4/4">
+            <img :src="`/projects/${item.image}`" class="w-full h-full " />
           </div>
         </Slide>
 

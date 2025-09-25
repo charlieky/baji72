@@ -3,10 +3,10 @@
     <div class="container">
       <div class="fs gap-4 sm:flex-col-reverse">
         <div class="flex-3">
-          <h2 class="text-4xl sm:text-xl font-bold text-light section-title-start">
+          <h2 class="text-4xl sm:text-xl font-bold  text-light section-title-start">
             {{ $t('about_page.company_intro') }}
           </h2>
-          <p class="mt-4 text-dark text-justify text-lg sm:text-sm">
+          <p class="mt-6 text-dark text-justify text-lg sm:text-sm">
             {{ $t('about_page.company_description') }}
           </p>
            <p class="mt-1 text-dark text-justify text-lg sm:text-sm">
@@ -31,14 +31,14 @@
             <p class="mt text-dark text-justify text-lg sm:text-sm">
             {{ $t('about_page.company_description8') }}
           </p>
-            <p class="mt text-dark text-justify text-lg sm:text-sm">
+            <p class="mt-2 text-dark text-justify text-lg sm:text-sm">
             {{ $t('about_page.company_description9') }}
           </p>
 
           <h2 class="text-4xl sm:text-xl font-bold text-light section-title-start !mt-1">
             {{ $t('about_page.mission_title') }}
           </h2>
-          <p class="mt-3 text-dark text-justify text-lg sm:text-sm">
+          <p class="mt-6 text-dark text-justify text-lg sm:text-sm">
             {{ $t('about_page.mission_description') }}
           </p>
               <p class=" text-dark text-justify text-lg sm:text-sm">
@@ -50,13 +50,13 @@
                <p class=" text-dark text-justify text-lg sm:text-sm">
             {{ $t('about_page.mission_description3') }}
           </p>
-               <p class=" text-dark text-justify text-lg sm:text-sm">
+               <p class="mt-2 text-dark text-justify text-lg sm:text-sm">
             {{ $t('about_page.mission_description4') }}
           </p>
           <h2 class="text-4xl sm:text-xl font-bold text-light section-title-start !mt-1">
             {{ $t('about_page.vision_title') }}
           </h2>
-          <p class="mt-3 text-dark text-justify text-lg">
+          <p class="mt-6 text-dark text-justify text-lg">
             {{ $t('about_page.vision_description') }}
           </p>
              <p class=" text-dark text-justify text-lg sm:text-sm">
@@ -124,7 +124,7 @@
       </div>
     </div>
   </section>
-  <section class="py-14 w-full bg-darker text-light">
+  <section class="py-14 w-full bg-darker text-darker">
     <div class="container">
       <h2 class="font-bold text-3xl w-fit mx-auto section-title mb-2">
         {{ $t('about_page.services.heading') }}
