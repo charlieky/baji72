@@ -24,7 +24,7 @@
     .app-menu-btn svg {
         @apply absolute w-full h-full transition-all duration-300 ease-in-out;
         fill: none;
-        stroke: #121212;
+        stroke: #fff;
         stroke-width: 5;
         stroke-linecap: round;
         transition: all 0.3s ease-in-out;

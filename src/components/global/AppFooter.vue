@@ -49,12 +49,7 @@
             <h3 class="text-2xl font-bold text-light section-title-start mb-6">
               {{ $t('footer.address.heading') }}
             </h3>
-            <a href="https://maps.app.goo.gl/UEzZQTtequNeQsJz9" target="_blank">
-              <p class="text-sm leading-6 fs gap-1 primary-link mt-6">
 
-                {{ $t('footer.address.text') }}
-              </p>
-            </a>
           </div>
           <ul class="flex-1 fl-2 sm:w-full">
             <li class="mb-6">
