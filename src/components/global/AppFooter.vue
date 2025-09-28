@@ -31,7 +31,7 @@
   <!-- WhatsApp -->
   <div class="flex flex-col items-center gap-1">
     <whatsapp-icon class="w-10 text-green-500" />
-    <a :href="`https://wa.me/${appsettings.whatsappNumber}`"
+    <a :href="`https://wa.me/15879109422`"
        class="whatsapp-link mt-1"
        target="_blank"
        rel="noopener noreferrer"
