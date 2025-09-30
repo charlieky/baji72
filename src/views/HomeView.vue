@@ -9,6 +9,7 @@
     </div>
   </section>
 </template>
+
 <script setup lang="ts">
 import { defineAsyncComponent } from 'vue'
 const LandingSection = defineAsyncComponent(() => import('@/components/home/LandingSection.vue'))

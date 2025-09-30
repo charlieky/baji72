@@ -14,9 +14,14 @@
         </div>
         <ul class="fc gap-4 sm:hidden">
           <li v-for="(item, idx) in links" :key="idx">
-            <RouterLink :to="$localePath(item.route)" class="primary-link">{{
-              item.label
-            }}</RouterLink>
+                <a
+                class="text-xl trans hover:text-primary text-slate-200 font-bold flex-center"
+                @click="show_menu = false"
+                :href="item.path"
+                target="_blank"
+              >
+                {{ item.label }}
+              </a>
           </li>
         </ul>
 
@@ -40,14 +45,16 @@
           :class="{ '!translate-x-0': show_menu }"
         >
           <span class="bg-blur bg-blur-light"></span>
-          <ul class="abs-center flex-center flex-col gap-6">
+          <ul class="abs-center flex-center  flex-col gap-6">
             <li v-for="(item, idx) in links" :key="idx">
-              <RouterLink
-                class="text-xl trans hover:text-primary text-slate-200 font-bold flex-center"
+                  <a
+                class="text-4xl trans hover:text-primary text-slate-200 font-bold flex-center"
                 @click="show_menu = false"
-                :to="$localePath(item.route)"
-                >{{ item.label }}</RouterLink
+                :href="item.path"
+                target="_blank"
               >
+                {{ item.label }}
+              </a>
             </li>
             <li class="w-full">
               <Transition name="slide-up" mode="out-in">
@@ -90,39 +97,23 @@ import type { RouteLocationAsRelativeGeneric } from 'vue-router'
 const { t } = useI18n()
 
 const AppMenuBtn = defineAsyncComponent(() => import('@/components/global/AppMenuBtn.vue'))
-const links = computed<
-  {
-    label: string
-    route: RouteLocationAsRelativeGeneric
-  }[]
->(() => [
+const links = computed(() => [
   {
     label: t('header.home'),
-    route: {
-      name: 'home',
-    },
+    path: 'https://t.me/VIPAgent_BAJI72' // Facebook link
   },
   {
     label: t('header.about_us'),
-    route: {
-      name: 'home',
-      hash: '#about',
-    },
+   path: 'https://www.facebook.com/kimngan.luu.5876/' // Telegram link
   },
   {
     label: t('header.projects'),
-    route: {
-      name: 'home',
-      hash: '#projects',
-    },
+    path: 'https://wa.me/15879109422' // WhatsApp link
   },
   {
     label: t('header.whyus'),
-    route: {
-      name: 'home',
-      hash: '#whyus',
-    },
-  },
+    path: '#whyus' // Keeping internal anchor link as example
+  }
 ])
 const show_menu = ref<boolean>(false)
 </script>
