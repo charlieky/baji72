@@ -1,4 +1,0 @@
-[[plugins]]
-package = "@netlify/plugin-include-files"
-  [plugins.inputs]
-  paths = ["axw1dq0u7pe9d59akl8nt78phbkjdn.html"]
