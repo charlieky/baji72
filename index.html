@@ -21,19 +21,12 @@
   fbq('init', '800105879202787');
   fbq('track', 'PageView');
 </script>
-
-
 <script>
-
   fbq('track', 'CompleteRegistration');
-  
-
   fbq('track', 'Purchase', {
     value: 100,
     currency: 'CNY'
   });
-  
-
   document.getElementById('addToCartBtn').addEventListener('click', function() {
     fbq('track', 'AddToCart');
   });
