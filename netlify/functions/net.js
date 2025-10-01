@@ -1,23 +1,20 @@
-// netlify/functions/net.js
+
 const fs = require('fs').promises;
 const path = require('path');
-console.log(__dirname);
-exports.handler = async (event) => {
+
+exports.handler = async () => {
   try {
-    const filePath = path.join(__dirname, '..', '..', 'axw1dq0u7pe9d59akl8nt78phbkjdn.html');
-    const data = await fs.readFile(filePath, 'utf8');
+    const html = await fs.readFile(
+      path.join(__dirname, '../../axw1dq0u7pe9d59akl8nt78phbkjdn.html'),
+      'utf8'
+    );
 
     return {
       statusCode: 200,
-      headers: {
-        'Content-Type': 'text/html',
-      },
-      body: data
+      headers: {'Content-Type': 'text/html'},
+      body: html
     };
   } catch (error) {
-    return {
-      statusCode: 404,
-      body: `File not found: ${error.message}`
-    };
+    return {statusCode: 404, body: error.message};
   }
 };
