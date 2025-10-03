@@ -1,0 +1,71 @@
+@tailwind components;
+@layer components {
+  .trans {
+    @apply transition-colors duration-300 ease-in-out;
+  }
+
+  .t-trans {
+    @apply transition-transform duration-300 ease-in-out;
+  }
+  .trans-all {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  .container {
+    width: 90% !important;
+    max-width: 1440px !important;
+  }
+  .abs-center {
+    @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .main-border {
+    @apply border  border-gray-300/40;
+  }
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+  .fl-2 {
+    @apply flex flex-col gap-2.5;
+  }
+  .fl-5 {
+    @apply flex flex-col gap-5;
+  }
+  .fc {
+    @apply flex items-center;
+  }
+  .fs {
+    @apply flex items-start;
+  }
+  .bg-blur {
+    @apply bg-black/40 absolute  inset-0 w-full h-full backdrop-blur-lg -z-1;
+  }
+  .btn-primary {
+    @apply px-5 py-2 fc gap-2 rounded-full bg-primary text-light trans hover:bg-primary/80 font-semibold shadow-lg shadow-blue-500/40;
+  }
+
+  .btn-with-icon {
+    @apply pl-2 pr-4 ltr:pr-2 ltr:pl-4;
+  }
+  .primary-link {
+    @apply text-dark font-bold text-sm trans hover:text-primary;
+  }
+  .secondary-link {
+    @apply;
+  }
+  .section-title {
+    @apply relative hover:before:w-full before:transition-all duration-500 ease-in-out before:absolute before:left-1/2 before:-translate-x-1/2 before:-bottom-1.5 before:translate-y-full before:rounded-full before:h-1.5 before:w-1/2 
+           before:bg-primary  before:content-[''];
+  }
+  .section-title-start {
+    @apply w-fit before:!right-0 ltr:before:!left-0 before:!translate-x-0 section-title;
+  }
+  .social-media-icon {
+    @apply w-9 h-9 sm:w-8 sm:h-8 rounded-full flex-center outline-1 outline outline-primary trans text-primary hover:bg-primary hover:text-light;
+  }
+  .lang-btn {
+    @apply bg-light shadow rounded-full px-3 py-1.5 text-sm text-darker trans hover:bg-primary hover:text-light;
+  }
+}
